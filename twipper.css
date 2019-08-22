@@ -1,0 +1,13 @@
+.background {
+    height: 100%;
+    width: 100%;
+}
+
+.first {
+    background: url(img_twipper/background@2x.png) no-repeat top center;
+    background-size: cover;
+}
+
+.second {
+    background: gray;
+}
