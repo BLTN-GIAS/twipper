@@ -1,13 +1,32 @@
-.background {
-    height: 100%;
-    width: 100%;
+.column {
+    height: 50%;
+    width: 50%;
 }
 
 .first {
-    background: url(img_twipper/background@2x.png) no-repeat top center;
-    background-size: cover;
+    float: right;
+    background: #fff;
+    text-align: center;
+    padding: 0px 20px;
 }
 
 .second {
-    background: gray;
+    float: left;
+    background-image: url("img_twipper/background@2x.png") /*no-repeat top center*/;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.line {
+    border: 1px solid #e6ecf0;
+}
+.username {
+    height: 49px;
+
+}
+.message {
+    color: #fff;
 }
