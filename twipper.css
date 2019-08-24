@@ -1,21 +1,20 @@
 .column {
-    height: 50%;
     width: 50%;
+    height: 100vh;
 }
 
 .first {
     float: right;
-    background: #fff;
+    background-color: #fff;
     text-align: center;
-    padding: 0px 20px;
+    /*padding: 0px 20px;*/
 }
 
 .second {
-    float: left;
     background-image: url("img_twipper/background@2x.png") /*no-repeat top center*/;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    /*background-position: center;*/
 }
 
 
