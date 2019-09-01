@@ -59,24 +59,35 @@ body{
 }
 
 .TopicList {
+    display: flex;
     text-align: left;
+    color: #fff;
+    margin-bottom: 32px;
 }
 
 .TopicIcon {
+    display: inline-block;
+    float: left;
     background-image: url(img_twipper/シャープアイコン1.svg);
     height: 35px;
     width: 35px;
-    display: inline-block;
-    font-size: 35px;
+    /*font-size: 35px;*/
     margin-top: 8px;
     margin-right: 16px;
 
 }
 
-.TopicTitle {
+.TopicTitles {
     float: left;
 }
 
+.TopicTitle {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
 .TopicSubtitle{
-    float: left;
+    font-size: 14px;
+    line-height: 20px;
 }
