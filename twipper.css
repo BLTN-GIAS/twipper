@@ -60,25 +60,22 @@ body{
 
 .TopicList {
     display: flex;
-    text-align: left;
     color: #fff;
     margin-bottom: 32px;
 }
 
 .TopicIcon {
-    display: inline-block;
-    float: left;
     background-image: url(img_twipper/シャープアイコン1.svg);
+    background-repeat: no-repeat;
     height: 35px;
     width: 35px;
-    /*font-size: 35px;*/
     margin-top: 8px;
     margin-right: 16px;
 
 }
 
 .TopicTitles {
-    float: left;
+   /* float: left;*/
 }
 
 .TopicTitle {
@@ -90,4 +87,74 @@ body{
 .TopicSubtitle{
     font-size: 14px;
     line-height: 20px;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.ds-bl {
+    display: block;
+}
+
+.ds-inb {
+    display: inline-block;
+}
+
+.ds-inf {
+    display: inline-flex
+}
+
+.mg-ri12 {
+    margin-right: 12px;
+}
+
+.l-h20 {
+    line-height: 20px;
+}
+
+.h-39 {
+    height: 39px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.fo-s14 {
+    font-size: 14px;
+}
+
+.mg-t20 {
+    margin-top: 20px;
+}
+
+.pa-12 {
+    padding: 12px;
+}
+
+.bg-cb {
+    background-color:
+}
+
+.b-s {
+    border: solid 1px rgba(29, 161, 242, 1);
+    border-radius: 40px
+}
+
+.f-sb {
+    color: #00acee;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background: rgba(29, 161, 242, 0.1);
+    cursor: pointer;
+}
+
+.il-b {
+    display: inline-block;
+}
+.fo-cg {
+
 }
