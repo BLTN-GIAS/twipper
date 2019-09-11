@@ -14,7 +14,7 @@ body{
     float: right;
     background-color: #fff;
     text-align: center;
-    /*padding: 0px 20px;*/
+    /* padding: 0px 20px; */
 }
 
 .second {
@@ -101,8 +101,13 @@ body{
     display: inline-block;
 }
 
-.ds-inf {
-    display: inline-flex
+.ds-f {
+    display: flex;
+}
+
+.ds-if {
+    display: inline-flex;
+    flex-direction: column;
 }
 
 .mg-ri12 {
@@ -133,8 +138,8 @@ body{
     padding: 12px;
 }
 
-.bg-cb {
-    background-color:
+.pa-s20 {
+    padding: 0 20px;
 }
 
 .b-s {
@@ -155,6 +160,15 @@ input[type="submit"]:hover {
 .il-b {
     display: inline-block;
 }
-.fo-cg {
 
+.v-at {
+    vertical-align: top;
+}
+
+.tx-s {
+    text-align: justify;
+    font-size: 14px;
+    text-decoration: none;
+    color: #aab8c2;
+    /* text-justify: inter-ideograph; */
 }
