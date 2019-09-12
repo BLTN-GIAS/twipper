@@ -1,0 +1,20 @@
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+    .top-login {
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (max-width: 799px) {
+    .top-login {
+        visibility: hidden;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .column {
+        width: 100%;
+        height: auto;
+    }
+}
