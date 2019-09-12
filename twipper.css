@@ -126,6 +126,21 @@ body{
     height: 100%;
 }
 
+.w-100 {
+    width: 100%;
+}
+
+.w-210 {
+    width: 210px;
+}
+
+.mw-600 {
+    max-width: 600px;
+}
+
+.bs-bb {
+    box-sizing: border-box;
+}
 .fo-s14 {
     font-size: 14px;
 }
@@ -152,6 +167,10 @@ body{
     font-weight: bold;
 }
 
+.ta-l {
+    text-align: left;
+}
+
 input[type="submit"]:hover {
     background: rgba(29, 161, 242, 0.1);
     cursor: pointer;
@@ -166,7 +185,6 @@ input[type="submit"]:hover {
 }
 
 .tx-s {
-    text-align: justify;
     font-size: 14px;
     text-decoration: none;
     color: #aab8c2;
