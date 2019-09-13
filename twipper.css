@@ -18,7 +18,7 @@ body{
 }
 
 .second {
-    background-image: url("img_twipper/background@2x.png") /*no-repeat top center*/;
+    background-image: url("img_twipper/background@2x.png"); /*no-repeat top center*/;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,7 +65,7 @@ body{
 }
 
 .TopicIcon {
-    background-image: url(img_twipper/シャープアイコン1.svg);
+    background-image: url("img_twipper/シャープアイコン1.svg");
     background-repeat: no-repeat;
     height: 35px;
     width: 35px;
@@ -110,10 +110,6 @@ body{
     flex-direction: column;
 }
 
-.mg-ri12 {
-    margin-right: 12px;
-}
-
 .l-h20 {
     line-height: 20px;
 }
@@ -145,16 +141,47 @@ body{
     font-size: 14px;
 }
 
+.mg-a {
+    margin: auto;
+}
+
+.mg-b8 {
+    margin-bottom: 8px;
+}
 .mg-t20 {
     margin-top: 20px;
 }
 
+.mg-ri12 {
+    margin-right: 12px;
+}
+
+.mg-t48{
+    margin-top: 48px;
+}
+
+.mg-t16 {
+    margin-top: 16px;
+}
+.mg-b24{
+    margin-bottom: 24px;
+}
+.mg-b16{
+    margin-bottom: 16px;
+}
+.pa-tb16{
+    padding: 16px 0px;
+}
 .pa-12 {
     padding: 12px;
 }
 
 .pa-s20 {
     padding: 0 20px;
+}
+
+.pa-trbl616 {
+    padding: 6px 16px;
 }
 
 .b-s {
@@ -167,6 +194,18 @@ body{
     font-weight: bold;
 }
 
+.f-cw {
+    color: white;
+}
+
+.b-b {
+    background: #00acee;
+}
+
+.fw-b {
+    font-weight: bold;
+}
+
 .ta-l {
     text-align: left;
 }
@@ -174,10 +213,6 @@ body{
 input[type="submit"]:hover {
     background: rgba(29, 161, 242, 0.1);
     cursor: pointer;
-}
-
-.il-b {
-    display: inline-block;
 }
 
 .v-at {
@@ -189,4 +224,53 @@ input[type="submit"]:hover {
     text-decoration: none;
     color: #aab8c2;
     /* text-justify: inter-ideograph; */
+}
+
+.login-title {
+    font-size: 27px;
+    line-height: 32px;
+    margin: 0px;
+}
+
+.twittericon-login {
+    /* background-image: url(img_twipper/Twitter_Logo_Blue.png) no-repeat; */
+    /* height: px; */
+    width: 70px;
+    /* padding-bottom: 8px; */
+    /* text-align: center; */
+}
+
+.login-container {
+    width: 350px;
+    display: block;
+}
+
+.p-r {
+    position: relative;
+}
+
+.p-a {
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+.ai-c {
+    align-items: center
+}
+
+.td-n {
+    text-decoration: none;
+}
+
+.make-account:hover {
+    background: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+}
+
+.under-login:hover {
+    background: rgba(29, 161, 242, 0.1);
 }
