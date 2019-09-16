@@ -6,28 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="twipper.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- <script type="tet/javascript" src="responsive.js"></script> -->
 </head>
 <body>
     <div class="wrapper">
-        <div class="column first">
-            <form action="#" method="post" class="form-size">
-            <!--    <div class="input-name">
-                    <input type="text" placeholder="電話番号/メールアドレス/ユーザー名" class="line username">
+        <div class="column first l-h20 p-r">
+            <div class="top-login ds-f mg-t20 v-at jc-sb pa-s20 mw-600">
+                <div class="w-210 mg-ri12">
+                    <input type="text" name="phone-email" placeholder="電話番号/メールアドレス/ユーザー名" class="fo-s14 pa-12 w-100 bs-bb">
+                </div>
+                <div class="ds-inb ds-if mg-ri12 w-210">
+                    <input type="password" name="password" placeholder="パスワード" class="fo-s14 pa-12 w-100 bs-bb">
+                    <div class="ds-inb w-100">
+                        <a href="#" rel="forget" class="ds-inb ta-l tx-s bs-bb">パスワードを忘れた場合はこちら
+                        </a>
+                    </div>
                 </div>
                 <div>
-                    <input typw="password" placeholder="パスワード" class="line password">
-                </div>-->
-            </form>
+                <input type="submit" name="submit" value="ログイン" class="fo-s14 pa-12 l-h20 b-s f-sb">
+                </div>
+            </div>
+            <div id="login-container" class="login-container mg-a p-a">
+                <div class="h-39 ta-l mg-t16 mg-b24 ds-fjc ai-c">
+                    <div>
+                        <img src="img_twipper/Twitter_Logo_Blue.png" class="twittericon-login ds-bl bs-bb">
+                    </div>
+                    <div>
+                        <input type="submit" name="submit" value="ログイン" class="login-container-top-login-button ds-bl fo-s14 pa-12 l-h20 b-s f-sb">
+                    </div>
+                        <!-- </div><span class="twittericon-login ds-inb"></span> -->
+                </div>
+                <div class="ai-c">
+                    <h1 class="login-title ta-l">「いま」起きていることを見つけよう</h1>
+                </div>
+                <div>
+                    <div class="mg-t48 mg-b16">
+                        <h2 class="first-login-subtitle ta-l">Twitter(トレース)をはじめよう</h2>
+                    </div>
+                    <div class="ds-if w-100">
+                        <a href="#" class="make-account b-s f-cw b-b mg-b16 pa-trbl616 fw-b fo-s14 td-n">アカウント作成</a>
+                        <a href="#" class="under-login b-s pa-trbl616 f-sb fo-s14 mg-b16 td-n">ログイン</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="column second">
             <div class="mainbox">
                 <div class="MainTitle">
-                    <h1 class="message">新しくなったTwipperをすぐにご利用いただけますか?
+                    <h1 class="message">新しくなったTwtter(トレース)をすぐにご利用いただけます
                     </h1>
                     <div class="leftsubtitle">
-                    以下のような機能が沢山追加されています。
+                    以下のような機能がたくさん追加されました。
                     </div>
                 </div>
                 <div class="FunctionList">
