@@ -110,6 +110,11 @@ body{
     flex-direction: column;
 }
 
+.ds-fjc {
+    display: flex;
+    justify-content: space-between;
+}
+
 .l-h20 {
     line-height: 20px;
 }
@@ -252,9 +257,9 @@ input[type="submit"]:hover {
 .p-a {
     position: absolute;
     top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
 }
 
 .ai-c {
@@ -273,4 +278,16 @@ input[type="submit"]:hover {
 
 .under-login:hover {
     background: rgba(29, 161, 242, 0.1);
+}
+
+.first-login-subtitle {
+    font-size: 18px;
+}
+
+/* .login-container-top-login-button { */
+    /* float: right; */
+/* } */
+
+.ai-c {
+    align-items: center;
 }

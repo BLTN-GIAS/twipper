@@ -1,3 +1,9 @@
+@media screen and (min-width:1024px) {
+    .login-container-top-login-button {
+        visibility: hidden;
+    }
+}
+
 @media screen and (min-width: 800px) and (max-width: 1023px) {
     .top-login {
         visibility: hidden;
@@ -7,15 +13,33 @@
 
 @media screen and (max-width: 799px) {
     .top-login {
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
     }
+
     .wrapper {
         display: flex;
         flex-direction: column;
     }
+
     .column {
         width: 100%;
         height: auto;
+    }
+
+    .p-a {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translateY(0%) translateX(0%);
+        /* margin: auto; */
+    }
+
+    .mainbox {
+        /* margin-top: 32px; */
+        /* margin-bottom: 16px; */
+        margin: auto;
+        transform: translateY(0%);
     }
 }
 
